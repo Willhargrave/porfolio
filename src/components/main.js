@@ -1,7 +1,7 @@
 import { render } from "@testing-library/react"
-import Navbar from "./navbar"
-import Skills from "./skills"
-import About from "./about"
+import Navbar from "./Navbar"
+import Skills from "./Skills"
+import About from "./About"
 function Main()  {
     return (
         <div>
