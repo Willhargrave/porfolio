@@ -1,3 +1,4 @@
+import "./style/skills.css"
 function Skills() {
     return(
         <div>
