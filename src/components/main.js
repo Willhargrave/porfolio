@@ -2,6 +2,7 @@ import { render } from "@testing-library/react"
 import Navbar from "./Navbar"
 import Skills from "./Skills"
 import About from "./About"
+import Project from "./Projects"
 function Main() {
     return (
         <div className="all">
@@ -10,6 +11,7 @@ function Main() {
                 <About />
                 <Skills />
             </div>
+            <Project />
         </div>
     )
 };
