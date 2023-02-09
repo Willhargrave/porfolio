@@ -1,3 +1,4 @@
+import "./style/about.css"
 function About() {
     return(
         <div>
