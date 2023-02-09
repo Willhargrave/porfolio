@@ -1,14 +1,10 @@
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 25%;
 }
 
 .Card {
-    margin: 5px;
-    margin-bottom: 18px;
-    background-color: rgb(21, 6, 7);
-}
-.CardButton {
     background-color: rgb(21, 6, 7);
 }
 

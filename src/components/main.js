@@ -2,14 +2,16 @@ import { render } from "@testing-library/react"
 import Navbar from "./Navbar"
 import Skills from "./Skills"
 import About from "./About"
-function Main()  {
+function Main() {
     return (
-        <div>
-        <Navbar />
-        <About />
-        <Skills />
+        <div className="all">
+            <Navbar />
+            <div className="details">
+                <About />
+                <Skills />
+            </div>
         </div>
     )
-}
+};
 
-export default Main
+export default Main;

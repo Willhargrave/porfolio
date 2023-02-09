@@ -12,5 +12,3 @@ const SkillItems = [
 ]
 
 export default SkillItems;
-
-          
