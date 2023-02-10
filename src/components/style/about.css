@@ -1,5 +1,6 @@
 .about {
     margin-top: 200px;
+    margin-bottom: 340px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,9 +13,8 @@
 }
 
 .image {
-    height: 75px;
-    width: 75px;
-    border-radius: 50%;
+    height: 200px;
+    width: 200px;
     object-fit: cover;
 }
 

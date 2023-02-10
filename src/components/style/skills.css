@@ -4,12 +4,11 @@
   width: 25%;
 }
 .skills {
-  margin-top: 340px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 400px;
 }
-
 
 .Card {
     background-color: rgb(21, 6, 7);
@@ -19,4 +18,13 @@
   width: 100px;
   height: 100px;
   object-fit: cover;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+ width: 25%;
 }
