@@ -3,6 +3,7 @@ import Navbar from "./Navbar"
 import Skills from "./Skills"
 import About from "./About"
 import Project from "./Projects"
+import "./style/App.css"
 function Main() {
     return (
         <div className="all">
@@ -10,8 +11,8 @@ function Main() {
             <div className="details">
                 <About />
                 <Skills />
+                <Project />
             </div>
-            <Project />
         </div>
     )
 };

@@ -3,7 +3,7 @@ import SkillItems from "./SkillItems";
 import SkillCard from "./SkillCard";
 function Skills() {
     return(
-        <div>
+        <div className="skills">
             <div className="grid">
             {SkillItems.map((Skill) => <SkillCard Skill={Skill}/>)}
             </div>
