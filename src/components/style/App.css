@@ -3,7 +3,3 @@ body {
     color: white;
 }
 
-.details {
-  display: flex;
-  justify-content: space-between;
-}
