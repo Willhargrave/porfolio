@@ -1,3 +1,4 @@
+import "./style/Project.css"
 const ProjectCard = (props) => {
     return (
         <div className="Card">
