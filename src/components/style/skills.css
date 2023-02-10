@@ -1,13 +1,15 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 25%;
+}
 .skills {
+  margin-top: 340px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 25%;
-}
+
 
 .Card {
     background-color: rgb(21, 6, 7);
