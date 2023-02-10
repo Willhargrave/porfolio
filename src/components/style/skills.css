@@ -1,7 +1,6 @@
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  width: 25%;
 }
 .skills {
   display: flex;
@@ -15,8 +14,8 @@
 }
 
 .CardImg {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
 }
 h2 {
@@ -26,5 +25,5 @@ h2 {
 }
 
 hr {
- width: 25%;
+ width: 50%;
 }

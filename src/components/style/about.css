@@ -11,6 +11,8 @@
 .Head {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
 }
 .about h1 {
     color: pink;
@@ -24,4 +26,7 @@
     height: 200px;
     width: 200px;
     object-fit: cover;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 10px 5px 5px rgb(240, 238, 238);
 }
