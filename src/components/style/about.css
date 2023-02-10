@@ -8,13 +8,20 @@
 .about_content {
     width: 50%;
 }
+.Head {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 .about h1 {
-    color: pink
+    color: pink;
+    font-size: 60px;
 }
 
+.about p {
+    font-size: 30px;
+}
 .image {
     height: 200px;
     width: 200px;
     object-fit: cover;
 }
-
