@@ -1,7 +1,7 @@
 import "./style/about.css"
 function About() {
     return(
-        <div className="about">
+        <div className="about" id="about">
             <div className="about_content">
             <div className="Head">
             <h1>Will Hargrave <hr></hr> Full Stack Engineer</h1>

@@ -1,4 +1,12 @@
 .navbar {
-    background-color: rgb(216, 209, 209);
+    background: -webkit-linear-gradient(360deg, #dee1e1 10%, #f4f4f4 360%);
     color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
 }
