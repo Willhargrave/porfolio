@@ -5,8 +5,10 @@ const ProjectCard = (props) => {
             <div className="Project-card">
                 <img src={props.Project.img} alt='' className='ProjectImg' />
                 </div>
+                <div className="Project-info">
                 <h2>{props.Project.name}</h2>
-                <h3 className="info">{props.Project.info}</h3>
+                <h3>{props.Project.info}</h3>
+                </div>
         </div>
 
     )
