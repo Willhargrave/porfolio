@@ -1,14 +1,12 @@
 import "./style/Project.css"
 const ProjectCard = (props) => {
     return (
-        <div className="Project_Card">
-        <h2>{props.Project.name}</h2>
-        <img src={props.Project.img} alt='' className='ProjectImg'/>
-        <div className="overlay">
-        <h2 className="info">{props.Project.info}</h2>
+        <div className="Project-card">
+            <h2>{props.Project.name}</h2>
+            <img src={props.Project.img} alt='' className='ProjectImg' />
+                <h3 className="info">{props.Project.info}</h3>
         </div>
-        </div>
-        
+
     )
 }
 
