@@ -1,4 +1,4 @@
 body {
-  background-color: #faebd7;
+  background: -webkit-linear-gradient(360deg, #dee1e1 10%, #f4f4f4 360%);
   font-weight: 100;
 }
