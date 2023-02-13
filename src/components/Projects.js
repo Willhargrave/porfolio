@@ -2,15 +2,17 @@ import "./style/Project.css"
 import ProjectCard from "./ProjectCard";
 import ProjectItems from "./ProjectItems";
 function Skills() {
-    return(
-        <div>
-           <h2 id="project">Projects</h2>
-            <hr></hr>
-            <div className="project">
-            {ProjectItems.map((Project) => <ProjectCard Project={Project}/>)}
-            </div>
-        </div>
-    )
+
+  return (
+    <div>
+      <h2>Projects</h2>
+      <hr></hr>
+      <p>Here are some of the projects I've worked on, click for more info</p>
+      <div className="project" id="project">
+        {ProjectItems.map((Project) => <ProjectCard Project={Project} />)}
+      </div>
+    </div>
+  )
 }
 
 export default Skills;
