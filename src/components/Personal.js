@@ -1,5 +1,7 @@
 import "./style/personal.css"
 import PersonalCard from "./PersonalCard";
+import TravelCard from "./PersonalCardOther";
+import japanex from './images/japanex.png'
 function Personal() {
 
     return (
@@ -11,6 +13,9 @@ function Personal() {
         </div>
         <div className="personal">
             <PersonalCard />
+            <img src={japanex} className="personal-img"/>
+            <TravelCard />
+
         </div>
       </div>
     )
