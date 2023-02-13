@@ -1,14 +1,12 @@
 .personal {
     display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
-    align-content: center;
-    margin-top: 100px;
+    align-items: center;
     margin-bottom: 50px;
 }
 .personal-card {
-    background-color: white;
+    background-color: -webkit-linear-gradient(360deg, #dee1e1 10%, #f4f4f4 360%);
     border-radius: 20px;
     box-shadow: 0 0 5px 0 rgb(0 0 0 / 25%) inset, 0 5px 10px 5px rgb(0 0 0 / 25%);
-    width: 50%;
-   
 }

@@ -1,14 +1,16 @@
 import "./style/personal.css"
+import PersonalCard from "./PersonalCard";
 function Personal() {
 
     return (
-      <div className="personal" id="personal">
-        <div className="personal-card">
-            <h2>Currently...</h2>
-            <h2>📽 Watching: The Good Place</h2>
-            <h2>📘 Reading: The Japanese A History In Twenty Lives</h2>
-            <h2>🎮 Playing: Hades</h2>
-            <h2>and always a long-suffering Arsenal fan</h2>
+      <div id="personal">
+        <div className="personal-title">
+        <h2>Personal</h2>
+        <hr></hr>
+        <p>Thanks for checking out my growing portfolio, here's some of my other interests outside of coding</p>
+        </div>
+        <div className="personal">
+            <PersonalCard />
         </div>
       </div>
     )
