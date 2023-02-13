@@ -5,10 +5,10 @@ function Skills() {
 
   return (
     <div>
-      <h2>Projects</h2>
+      <h2 id="project">Projects</h2>
       <hr></hr>
       <p>Here are some of the projects I've worked on, hover over them for more info</p>
-      <div className="project" id="project">
+      <div className="project">
         {ProjectItems.map((Project) => <ProjectCard Project={Project} />)}
       </div>
     </div>

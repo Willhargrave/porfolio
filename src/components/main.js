@@ -3,6 +3,7 @@ import Navbar from "./Navbar"
 import Skills from "./Skills"
 import About from "./About"
 import Project from "./Projects"
+import Personal from "./Personal"
 function Main() {
     return (
         <div>
@@ -10,6 +11,7 @@ function Main() {
             <About />
             <Project />
             <Skills />
+            <Personal />
         </div>
     )
 };

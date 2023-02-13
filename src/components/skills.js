@@ -4,9 +4,9 @@ import SkillCard from "./SkillCard";
 function Skills() {
     return (
         <div>
-            <h2>Skills</h2>
+            <h2 id="skill">Skills</h2>
             <hr></hr>
-            <div className="skills" id="skill">
+            <div className="skills">
                 <div className="grid">
                     {SkillItems.map((Skill) => <SkillCard Skill={Skill} />)}
                 </div>
