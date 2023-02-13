@@ -15,6 +15,7 @@ const ProjectCard = (props) => {
                     <div className="popuptext" id={props.Project.id}>
                         <h2>{props.Project.name}</h2>
                         <h3>{props.Project.info}</h3>
+                        <h3>{props.Project.stack}</h3>
                     </div>
                 </div>
             </div>
