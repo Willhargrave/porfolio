@@ -70,7 +70,7 @@ p {
     display: inline-block;
     cursor: pointer;
   }
-  
+ 
   /* The actual popup (appears on top) */
   .popup .popuptext {
     visibility: hidden;
@@ -87,6 +87,11 @@ p {
     margin-left: -120px;
 }
 
+.Project-card:hover .popup .popuptext {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
   
   /* Popup arrow */
   .popup .popuptext::after {
@@ -101,11 +106,11 @@ p {
   }
   
   /* Toggle this class when clicking on the popup container (hide and show the popup) */
-  .popup .show {
+  /* .popup .show {
     visibility: visible;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s
-  }
+  } */
   
   /* Add animation (fade in the popup) */
   @-webkit-keyframes fadeIn {

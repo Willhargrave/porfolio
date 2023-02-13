@@ -8,8 +8,8 @@ function Main() {
         <div>
             <Navbar />
             <About />
-            <Skills />
             <Project />
+            <Skills />
         </div>
     )
 };
