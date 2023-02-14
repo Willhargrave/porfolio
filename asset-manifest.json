@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/porfolio/static/css/main.982fe089.css",
+    "main.js": "/porfolio/static/js/main.0e1f3e86.js",
+    "static/js/787.f2a0fa2f.chunk.js": "/porfolio/static/js/787.f2a0fa2f.chunk.js",
+    "static/media/profile.jpg": "/porfolio/static/media/profile.a699bfa2a10185d30259.jpg",
+    "static/media/Memory_Game.jpg": "/porfolio/static/media/Memory_Game.ca06f846345f0ecbedbd.jpg",
+    "static/media/Japan_Landmarks.jpg": "/porfolio/static/media/Japan_Landmarks.e39132acf4438014b778.jpg",
+    "static/media/japanex.png": "/porfolio/static/media/japanex.6e9ad301df0b34f9117e.png",
+    "static/media/farm-bnb.jpg": "/porfolio/static/media/farm-bnb.ac66e4881d1d20634bd4.jpg",
+    "static/media/phone-screen-template.jpg": "/porfolio/static/media/phone-screen-template.995c1ea624709bfe2cc2.jpg",
+    "index.html": "/porfolio/index.html",
+    "main.982fe089.css.map": "/porfolio/static/css/main.982fe089.css.map",
+    "main.0e1f3e86.js.map": "/porfolio/static/js/main.0e1f3e86.js.map",
+    "787.f2a0fa2f.chunk.js.map": "/porfolio/static/js/787.f2a0fa2f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.982fe089.css",
+    "static/js/main.0e1f3e86.js"
+  ]
+}
