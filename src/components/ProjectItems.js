@@ -27,6 +27,13 @@ const ProjectItems = [
         info: "An application for farmers to rent out their own farm animals and rent animals from other farmers",
         img: require('./images/farm-bnb.jpg')
     },
+    {
+        id: uniqid(),
+        name: 'Sushi Server',
+        stack: "React | Node | HTML/CSS",
+        info: "A website for a sushi delivery site.",
+        img: require('./images/sushi.jpg')
+    },
 ]
 
 export default ProjectItems;
